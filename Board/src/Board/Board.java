@@ -2,7 +2,7 @@ package Board;
 
 public class Board {
 	// 1. 저장할 항목을 private 변수로 생성한다.
-	private int num = 1; // 글번호
+	private int num; // 글번호
 	private String title; // 글 제목
 	private String content; // 글 내용
 	

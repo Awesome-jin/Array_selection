@@ -51,7 +51,7 @@ public class BoardJob {
 	// 수행 결과를 알려주지 않고자 할 때는 void (실패는 없다는 가정)
 
 	// 현재 작성된 글의 개수를 저장하기 위한 변수 - List를 사용하게 되면 필요없음
-	private int cnt;
+	private int cnt ;
 
 	public boolean insertBoard(Board board) {
 		list[cnt] = board;
