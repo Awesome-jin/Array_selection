@@ -19,8 +19,8 @@ public class BoardJob {
 		// 한 페이지에 10개씩 있다고 가정하면?? 0~9, 10~19, 20~29...
 		Board[] r = new Board[10];
 		// pageNo가 1일때는 0과 9, 2일때는 10과 19
-		int start = (int) 10 * (PageNo - 1);
-		int end = (int) 10 * Pageno - 1;
+		int start = (int) 10 * (pageNo - 1);
+		int end = (int) 10 * pageNo - 1;
 
 		for (int i = 0; i < 10; i = i + 1) {
 			r[i] = list[start + i];

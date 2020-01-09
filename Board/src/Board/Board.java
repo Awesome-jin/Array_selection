@@ -11,7 +11,7 @@ public class Board {
 	
 	//5.생성자를 만들어줌 클래스 이름과 동일하게
 	public Board() { //static 변수는 이전에 수정한 내용을 가지고 있기 때문에 1씩 증가
-		num = seq+1;
+		seq = seq+1;
 		num = seq; //num은 instance변수라서 생성자를 호출할 때마다 매번 새로 생성
 		//새로 생성되는 num에 seq의 값을 대입하면 일련번호가 됨
 	}
